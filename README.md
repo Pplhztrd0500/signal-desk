@@ -9,6 +9,8 @@ tells you which ideas did **not** survive. It never places orders.
 - Data: Kraken (majors like ETH, SOL, BTC) and GeckoTerminal (any DEX pool, incl. Solana memecoins).
 - Every number it prints comes from a script you can rerun.
 
+Follow the build on X: [@Pplhz_trd_0500](https://x.com/Pplhz_trd_0500)
+
 > Not financial advice. This is a research tool. Past results, including the ones below, prove nothing about the future.
 
 ## What a run looks like
@@ -80,5 +82,7 @@ A referral code can only be applied before your first trade.
 - Add a strategy: write a function in `desk/strategies.py`, add it to `FAMILIES` and `GRID`. The look-ahead test covers it automatically.
 - Raise the fee with `--fee 0.01` and see what still survives.
 - Walk-forward: fetch the same asset again in a month as a new dataset and rerun the test on bars the scan never saw.
+
+If you run it on your own coins, post what it blocked and tag [@Pplhz_trd_0500](https://x.com/Pplhz_trd_0500).
 
 MIT license.
